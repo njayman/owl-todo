@@ -1,0 +1,22 @@
+@import "~bootstrap/scss/bootstrap";
+
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-task-input {
+    max-width: 400px;
+}
+
+.tasks {
+    min-width: 200px;
+}
