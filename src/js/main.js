@@ -34,4 +34,4 @@ const env = {
     store: createTaskStore(),
 }
 
-mount(Root, document.body, { dev: true, env });
+mount(Root, document.body, { dev: process.env.NODE_ENV === 'development', env });

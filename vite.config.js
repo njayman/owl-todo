@@ -13,5 +13,6 @@ export default {
     },
     build: {
         outDir: path.join(__dirname, "dist")
-    }
+    },
+    publicDir: path.join(__dirname, "public")
 }
